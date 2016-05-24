@@ -5,7 +5,7 @@
 #' @keywords logit
 #' @export
 #' @examples
-#' logit(0.5)
+#' logit(0.6)
 
 logit <- function(p)
   {
