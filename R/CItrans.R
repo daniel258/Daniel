@@ -9,6 +9,6 @@ CItrans <- function(coef, se, Ftrans, cover = 0.95)
 {
   alpha <- 1- cover
   ci.no.trans <- coef + c(-1,1)*qnorm(1- alpha/2)*se
-  ci <- do.call(Ftrans, list(x = ci.no.trans))
+  ci <- do.call(Ftrans, list(ci.no.trans))
   return(ci)
   }
