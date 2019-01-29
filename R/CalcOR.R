@@ -1,7 +1,7 @@
 #' CalcOR Function
 #'
-#' For a 2X2 talbe, this function takes two marginal probabilities and the odds ratio
-#' and returns 4 cell probabilities
+#' Calculate Odds ratio from data
+#'
 #' @param TRUE.
 #' @keywords CalcOR
 #' @export
