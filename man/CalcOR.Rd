@@ -4,8 +4,7 @@
 \alias{CalcOR}
 \title{CalcOR Function}
 \usage{
-CalcOR(vec.abcd, a = NULL, b = NULL, cc = NULL, d = NULL,
-  vect = T)
+CalcOR(vec.abcd, a = NULL, b = NULL, cc = NULL, d = NULL, vect = T)
 }
 \description{
 Calculate Odds ratio from data

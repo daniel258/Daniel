@@ -3,6 +3,7 @@
 export(CItrans)
 export(CalcOR)
 export(CatIndex)
+export(CoverCInorm)
 export(MargORtoJoint)
 export(expit)
 export(logit)
