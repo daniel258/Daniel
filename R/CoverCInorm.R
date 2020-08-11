@@ -15,5 +15,5 @@ CoverCInorm <- function(est, se, truth, cover.prob = 0.95)
   ci.l <- est - z*se
   ci.h <- est + z*se
   cover <- (ci.l < truth) & (ci.h > truth)
-  return(or)
+  return(cover)
 }
