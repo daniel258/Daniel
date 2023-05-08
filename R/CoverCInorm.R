@@ -1,6 +1,6 @@
 #' CoverCInorm Function
 #'
-#' Given an estimate and standard error, returns "T" if the CI covers the true value
+#' Given an estimate and standard error, returns "T" if the Wald-Type CI covers the true value
 #'
 #' @param TRUE.
 #' @keywords CalcOR
